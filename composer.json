@@ -1,0 +1,12 @@
+{
+    "require": {
+        "stripe/stripe-php": "^6.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/",
+            "Config\\": "config/",
+            "Model\\":"models/"
+        }
+    }
+}
